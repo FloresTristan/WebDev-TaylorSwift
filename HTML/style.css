@@ -68,6 +68,7 @@ html, body{
 
 .content-section{
     margin: 1em;
+    text-align: justify;
 }
 .container{
     max-width: 900px;
@@ -119,4 +120,51 @@ html, body{
     font-family: "Pistilli-Roman";
     font-weight: normal;
     color: white;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-header{
+    display: block;
+    margin: 2em auto;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(255,255,255,.3);
+}
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color:#2D9CDB;
+    font-size: 3.5em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-row:last-child{
+    border-bottom: none;
 }
